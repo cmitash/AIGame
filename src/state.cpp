@@ -1,4 +1,8 @@
-state(){
+#include <state.hpp>
+#include <iostream>
+#include <stdlib.h>
+
+state::state(){
 
 };
 
@@ -20,7 +24,7 @@ void state::updateState(std::pair<int,int> to)
 					continue;
 			board[i][j] = playerColor[turn];
 		}
-	turn = (turn == BLUE) ? GREEN : BLUE;
+	turn = (turn == PLAYER1) ? PLAYER2 : PLAYER1;
 }
 
 bool state::validMove(std::pair<int,int> from, std::pair<int,int> to)
@@ -40,7 +44,7 @@ bool state::validMove(std::pair<int,int> from, std::pair<int,int> to)
 	else return true;
 }
 
-void state::isGameOver()
+bool state::isGameOver()
 {
 	FOREACH(0,GRID_SIZE-1,i)
 		FOREACH(0,GRID_SIZE-1,j)

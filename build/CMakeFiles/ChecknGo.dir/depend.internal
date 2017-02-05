@@ -6,9 +6,12 @@ CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o
  /home/pracsys/github/AIGame/src/AI_minmax.cpp
 CMakeFiles/ChecknGo.dir/src/game.cpp.o
  ../include/game.hpp
+ ../include/state.hpp
  /home/pracsys/github/AIGame/src/game.cpp
 CMakeFiles/ChecknGo.dir/src/main.cpp.o
  ../include/game.hpp
+ ../include/state.hpp
  /home/pracsys/github/AIGame/src/main.cpp
 CMakeFiles/ChecknGo.dir/src/state.cpp.o
+ ../include/state.hpp
  /home/pracsys/github/AIGame/src/state.cpp

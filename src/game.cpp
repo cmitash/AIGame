@@ -1,4 +1,5 @@
 #include <game.hpp>
+#include <iostream>
 
 game::game(GameMode mode)
 {
@@ -10,9 +11,6 @@ game::game(GameMode mode)
 void game::playMultiplayerGame(){
 	if(automatonState == WAITING_FOR_PLAYER)
 	{
-		if(currState->turn == PLAYER1)std::cout<<"PLAYER2's turn ! "<<std::endl;
-		else std::cout<<"PLAYER1's turn ! "<<std::endl;
-
 		std::pair<int,int> from(0,0);
 		std::pair<int,int> to(0,0);
 
@@ -22,7 +20,8 @@ void game::playMultiplayerGame(){
 		std::cout<<"To Position: ";
 		std::cin>>to.first>>to.second;
 
-		if(!currState->validMove(move)){
+		move = make_pair(from, to);
+		if(!currState->validMove(from, to)){
 			std::cout<<"Move Invalid !";
 			automatonState = WAITING_FOR_PLAYER;
 		}
@@ -31,11 +30,11 @@ void game::playMultiplayerGame(){
 		}
 	}
 	else if(automatonState == UPDATE_STATE){
-		currState->updateState();
+		currState->updateState(move.second);
 		if(currState->isGameOver())automatonState == END;
 		else automatonState == WAITING_FOR_PLAYER;
 	}
-	else if{automatonState == END}
+	else if(automatonState == END)
 	{
 		std::cout<<"GAME OVER !!!"<<std::endl;
 	}
