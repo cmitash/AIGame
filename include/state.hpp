@@ -4,4 +4,4 @@ class state{
 	private:
 		// Board
 		// Turn
-}
+};

@@ -6,5 +6,6 @@ enum GameMode {
 };
 
 class game{
+public:
 	game(GameMode mode);
-}
+};
