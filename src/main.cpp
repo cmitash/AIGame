@@ -10,7 +10,8 @@ int main()
 
 	// If multi player is chosen
 	game* currGame = new game((GameMode)MULTIPLAYER);
-	// currGame.start();
+	currGame->start();
+	
 	// Display winner page - ask to play again
 
 	// If single player is chosen
