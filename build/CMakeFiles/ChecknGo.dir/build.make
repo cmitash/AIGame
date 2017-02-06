@@ -156,6 +156,11 @@ ChecknGo: CMakeFiles/ChecknGo.dir/src/state.cpp.o
 ChecknGo: CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o
 ChecknGo: CMakeFiles/ChecknGo.dir/src/game.cpp.o
 ChecknGo: CMakeFiles/ChecknGo.dir/build.make
+ChecknGo: /usr/lib/x86_64-linux-gnu/libGLU.so
+ChecknGo: /usr/lib/x86_64-linux-gnu/libGL.so
+ChecknGo: /usr/lib/x86_64-linux-gnu/libglut.so
+ChecknGo: /usr/lib/x86_64-linux-gnu/libXmu.so
+ChecknGo: /usr/lib/x86_64-linux-gnu/libXi.so
 ChecknGo: CMakeFiles/ChecknGo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ChecknGo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChecknGo.dir/link.txt --verbose=$(VERBOSE)

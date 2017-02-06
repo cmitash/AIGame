@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/home/pracsys/github/AIGame/bu
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec852706197/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec852706197.dir/build.make CMakeFiles/cmTryCompileExec852706197.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3014547189/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3014547189.dir/build.make CMakeFiles/cmTryCompileExec3014547189.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec852706197.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec852706197.dir/testCCompiler.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec852706197
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec852706197.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec852706197.dir/testCCompiler.c.o  -o cmTryCompileExec852706197 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3014547189.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3014547189.dir/testCCompiler.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3014547189
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3014547189.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3014547189.dir/testCCompiler.c.o  -o cmTryCompileExec3014547189 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2329881677/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2329881677.dir/build.make CMakeFiles/cmTryCompileExec2329881677.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2302239952/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2302239952.dir/build.make CMakeFiles/cmTryCompileExec2302239952.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec2329881677
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2329881677.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2329881677 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2302239952
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2302239952.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2302239952 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.9.4 (Ubuntu 4.9.4-2ubuntu1~14.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/opt/ros/indigo/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/opt/ros/indigo/lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2329881677' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRxiq5R.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2329881677 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2302239952' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVqjzVh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2302239952 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2329881677/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2329881677.dir/build.make CMakeFiles/cmTryCompileExec2329881677.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2302239952/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2302239952.dir/build.make CMakeFiles/cmTryCompileExec2302239952.dir/build]
   ignore line: [make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec2329881677]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2329881677.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2329881677 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2302239952]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2302239952.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2302239952 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
@@ -88,13 +88,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.9.4 (Ubuntu 4.9.4-2ubuntu1~14.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/ros/indigo/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/opt/ros/indigo/lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2329881677' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRxiq5R.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2329881677 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2302239952' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVqjzVh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2302239952 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccRxiq5R.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVqjzVh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2329881677] ==> ignore
+    arg [cmTryCompileExec2302239952] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L.] ==> ignore
     arg [-L/opt/ros/indigo/lib] ==> dir [/opt/ros/indigo/lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec2329881677.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2302239952.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -163,15 +163,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4123698633/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4123698633.dir/build.make CMakeFiles/cmTryCompileExec4123698633.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4109063414/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4109063414.dir/build.make CMakeFiles/cmTryCompileExec4109063414.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4123698633.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec4123698633.dir/feature_tests.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec4123698633
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4123698633.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec4123698633.dir/feature_tests.c.o  -o cmTryCompileExec4123698633 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec4109063414.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec4109063414.dir/feature_tests.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4109063414
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4109063414.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4109063414.dir/feature_tests.c.o  -o cmTryCompileExec4109063414 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
@@ -184,15 +184,15 @@ make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTm
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4087482498/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4087482498.dir/build.make CMakeFiles/cmTryCompileExec4087482498.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2652312609/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2652312609.dir/build.make CMakeFiles/cmTryCompileExec2652312609.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4087482498.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec4087482498.dir/feature_tests.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec4087482498
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4087482498.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec4087482498.dir/feature_tests.c.o  -o cmTryCompileExec4087482498 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2652312609.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec2652312609.dir/feature_tests.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2652312609
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2652312609.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2652312609.dir/feature_tests.c.o  -o cmTryCompileExec2652312609 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
@@ -205,15 +205,15 @@ make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTm
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec211060356/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec211060356.dir/build.make CMakeFiles/cmTryCompileExec211060356.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2415924302/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2415924302.dir/build.make CMakeFiles/cmTryCompileExec2415924302.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec211060356.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec211060356.dir/feature_tests.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec211060356
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec211060356.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec211060356.dir/feature_tests.c.o  -o cmTryCompileExec211060356 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2415924302.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec2415924302.dir/feature_tests.c.o   -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2415924302
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2415924302.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2415924302.dir/feature_tests.c.o  -o cmTryCompileExec2415924302 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
@@ -224,30 +224,30 @@ make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTm
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4251626145/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4251626145.dir/build.make CMakeFiles/cmTryCompileExec4251626145.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4285797231/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4285797231.dir/build.make CMakeFiles/cmTryCompileExec4285797231.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4251626145.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4251626145.dir/testCXXCompiler.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec4251626145
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4251626145.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec4251626145.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4251626145 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec4285797231.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4285797231.dir/testCXXCompiler.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4285797231
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4285797231.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec4285797231.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4285797231 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3147344218/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3147344218.dir/build.make CMakeFiles/cmTryCompileExec3147344218.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec51456195/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec51456195.dir/build.make CMakeFiles/cmTryCompileExec51456195.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec3147344218
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3147344218.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3147344218 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec51456195
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec51456195.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec51456195 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
@@ -257,8 +257,8 @@ Thread model: posix
 gcc version 4.9.4 (Ubuntu 4.9.4-2ubuntu1~14.04.1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/opt/ros/indigo/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/opt/ros/indigo/lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3147344218' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccetbhmd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3147344218 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec51456195' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYJikmy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec51456195 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
@@ -266,15 +266,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3147344218/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3147344218.dir/build.make CMakeFiles/cmTryCompileExec3147344218.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec51456195/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec51456195.dir/build.make CMakeFiles/cmTryCompileExec51456195.dir/build]
   ignore line: [make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec3147344218]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3147344218.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3147344218 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec51456195]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec51456195.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec51456195 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
@@ -284,13 +284,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.9.4 (Ubuntu 4.9.4-2ubuntu1~14.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/ros/indigo/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:./:/opt/ros/indigo/lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3147344218' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccetbhmd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3147344218 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec51456195' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYJikmy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec51456195 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/opt/ros/indigo/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L. -L/opt/ros/indigo/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccetbhmd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYJikmy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -308,7 +308,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec3147344218] ==> ignore
+    arg [cmTryCompileExec51456195] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -323,7 +323,7 @@ Parsed CXX implicit link information from above output:
     arg [-L.] ==> ignore
     arg [-L/opt/ros/indigo/lib] ==> dir [/opt/ros/indigo/lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec3147344218.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec51456195.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -357,15 +357,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3271623886/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3271623886.dir/build.make CMakeFiles/cmTryCompileExec3271623886.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2012345733/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2012345733.dir/build.make CMakeFiles/cmTryCompileExec2012345733.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3271623886.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTryCompileExec3271623886.dir/feature_tests.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3271623886
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3271623886.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec3271623886.dir/feature_tests.cxx.o  -o cmTryCompileExec3271623886 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2012345733.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTryCompileExec2012345733.dir/feature_tests.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2012345733
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2012345733.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2012345733.dir/feature_tests.cxx.o  -o cmTryCompileExec2012345733 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
@@ -431,15 +431,15 @@ make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTm
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2382059537/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2382059537.dir/build.make CMakeFiles/cmTryCompileExec2382059537.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec104614933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec104614933.dir/build.make CMakeFiles/cmTryCompileExec104614933.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2382059537.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec2382059537.dir/feature_tests.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec2382059537
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2382059537.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec2382059537.dir/feature_tests.cxx.o  -o cmTryCompileExec2382059537 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec104614933.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec104614933.dir/feature_tests.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec104614933
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec104614933.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec104614933.dir/feature_tests.cxx.o  -o cmTryCompileExec104614933 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 
@@ -505,15 +505,15 @@ make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTm
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3133174451/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3133174451.dir/build.make CMakeFiles/cmTryCompileExec3133174451.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3119903179/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3119903179.dir/build.make CMakeFiles/cmTryCompileExec3119903179.dir/build
 make[1]: Entering directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 /usr/local/bin/cmake -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3133174451.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec3133174451.dir/feature_tests.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3133174451
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3133174451.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec3133174451.dir/feature_tests.cxx.o  -o cmTryCompileExec3133174451 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec3119903179.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec3119903179.dir/feature_tests.cxx.o -c /home/pracsys/github/AIGame/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec3119903179
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3119903179.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3119903179.dir/feature_tests.cxx.o  -o cmTryCompileExec3119903179 -rdynamic 
 make[1]: Leaving directory `/home/pracsys/github/AIGame/build/CMakeFiles/CMakeTmp'
 
 

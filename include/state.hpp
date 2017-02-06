@@ -1,26 +1,30 @@
+#ifndef STATE_HPP
+#define STATE_HPP
+
 #include <utility>
-
-#define GRID_SIZE 7
-#define FOREACH(a,b,i) for(int i=a;i<=b;i++)
-
-enum color{
-	BLANK, BLUE, GREEN
-};
-
-enum player{
-	PLAYER1, PLAYER2
-};
+#include <vector>
+#include <tools.hpp>
 
 class state{
 	public:
 		state();
+		state(state* newState);
 		void initialize();
 		bool validMove(std::pair<int,int> from, std::pair<int,int> to);
-		void updateState(std::pair<int,int> to);
+		bool validateSelection(std::pair<int,int> cell);
+		void updateState(std::pair<int,int> cell);
 		bool isGameOver();
+	    color getColoratPosition(std::pair<int,int> pos);
+	    void  clearSelectionOptions(std::pair<int,int> cell);
+	    std::vector<std::pair<int,int> > getAllActions();
+	    int getDepth();
+	    int getValue();
+		color getTurn();
 
 	private:
 		color board[GRID_SIZE][GRID_SIZE];
 		player turn;
 		color playerColor[2];
+		int depth;
 };
+#endif

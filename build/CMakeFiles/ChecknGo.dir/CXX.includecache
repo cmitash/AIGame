@@ -7,9 +7,15 @@
 #IncludeRegexTransform: 
 
 ../include/AI_minmax.hpp
+state.hpp
+-
+utility
+-
 
 ../include/game.hpp
 state.hpp
+-
+AI_minmax.hpp
 -
 utility
 -
@@ -17,9 +23,19 @@ utility
 ../include/state.hpp
 utility
 -
+vector
+-
+tools.hpp
+-
+
+../include/tools.hpp
 
 /home/pracsys/github/AIGame/src/AI_minmax.cpp
 iostream
+-
+climits
+-
+stdlib.h
 -
 AI_minmax.hpp
 -
@@ -33,7 +49,15 @@ iostream
 /home/pracsys/github/AIGame/src/main.cpp
 iostream
 -
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
 game.hpp
+-
+GL/glut.h
 -
 
 /home/pracsys/github/AIGame/src/state.cpp

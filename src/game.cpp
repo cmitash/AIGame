@@ -1,59 +1,108 @@
 #include <game.hpp>
 #include <iostream>
 
-game::game(GameMode mode)
+game::game(GameMode mode, AIMode level)
 {
+	currState = new state();
 	currState->initialize();
 	currMode = mode;
-	automatonState = WAITING_FOR_PLAYER;
+	automatonState = SELECTION;
+
+	if(mode == SINGLEPLAYER)
+		AI = new AI_minmax(level);
 }
 
-void game::playMultiplayerGame(){
-	if(automatonState == WAITING_FOR_PLAYER)
+Status game::move(std::pair<int,int> cell)
+{
+	if(currMode == MULTIPLAYER)
+		return moveMP(cell);
+	else
+		return moveAI(cell);
+}
+
+Status game::moveMP(std::pair<int,int> cell){
+	if(automatonState == SELECTION)
 	{
-		std::pair<int,int> from(0,0);
-		std::pair<int,int> to(0,0);
-
-		std::cout<<"From Position: ";
-		std::cin>>from.first>>from.second;
-
-		std::cout<<"To Position: ";
-		std::cin>>to.first>>to.second;
-
-		move = make_pair(from, to);
-		if(!currState->validMove(from, to)){
-			std::cout<<"Move Invalid !";
-			automatonState = WAITING_FOR_PLAYER;
+		if(!currState->validateSelection(cell)){
+			return BAD_SELECTION;
 		}
 		else{
-			automatonState = UPDATE_STATE;
+			currSelection = cell;
+			automatonState = MOVE;
+			return SUCCESS;
 		}
 	}
-	else if(automatonState == UPDATE_STATE){
-		currState->updateState(move.second);
-		if(currState->isGameOver())automatonState == END;
-		else automatonState == WAITING_FOR_PLAYER;
-	}
-	else if(automatonState == END)
+	else if(automatonState == MOVE)
 	{
-		std::cout<<"GAME OVER !!!"<<std::endl;
+		currState->clearSelectionOptions(currSelection);
+		if(!currState->validMove(currSelection, cell))
+		{
+			automatonState = SELECTION;
+			return INVALID_MOVE;
+		}
+		currState->updateState(cell);
+		if(currState->isGameOver())
+		{
+			return END;
+		}
+		else{
+			automatonState = SELECTION;
+			return SUCCESS;
+		}
 	}
 }
 
-void game::playSingleplayerGame(){
+Status game::moveAI(std::pair<int,int> cell){
+	if(automatonState == SELECTION)
+	{
+		if(!currState->validateSelection(cell)){
+			return BAD_SELECTION;
+		}
+		else{
+			currSelection = cell;
+			automatonState = MOVE;
+			return SUCCESS;
+		}
+	}
+	else if(automatonState == MOVE)
+	{
+		currState->clearSelectionOptions(currSelection);
+		if(!currState->validMove(currSelection, cell))
+		{
+			automatonState = SELECTION;
+			return INVALID_MOVE;
+		}
+		currState->updateState(cell);
 
+		if(currState->isGameOver())
+			return END;
+
+		std::pair<int,int> step = AI->playOneStep(currState);
+		currState->updateState(step);
+
+		if(currState->isGameOver())
+			return END;
+
+		automatonState = SELECTION;
+		return SUCCESS;
+	}
 }
 
-void game::Spectating(){
-
+color game::getColoratPosition(std::pair<int,int> pos){
+	return currState->getColoratPosition(pos);
 }
 
-void game::start()
-{
-	if(currMode == (GameMode)MULTIPLAYER)
-		while(automatonState != END)playMultiplayerGame();
-	else if(currMode == (GameMode)SINGLEPLAYER)
-		playSingleplayerGame();
-	else
-		Spectating();
+GameAutomatonState game::getAutomatonState(){
+	return automatonState;
+}
+
+color game::getWinner(){
+	int value = currState->getValue();
+	if(value > 0)return GREEN;
+	else if(value <0)return BLUE;
+	else return BLANK;
+}
+
+color game::getTurn(){
+	return currState->getTurn();
 }
