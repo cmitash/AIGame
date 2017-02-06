@@ -114,53 +114,77 @@ ChecknGo/fast:
 	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/build
 .PHONY : ChecknGo/fast
 
-src/AI_minmax.o: src/AI_minmax.cpp.o
-.PHONY : src/AI_minmax.o
+src/AI.o: src/AI.cpp.o
+.PHONY : src/AI.o
 
 # target to build an object file
-src/AI_minmax.cpp.o:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o
-.PHONY : src/AI_minmax.cpp.o
+src/AI.cpp.o:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI.cpp.o
+.PHONY : src/AI.cpp.o
 
-src/AI_minmax.i: src/AI_minmax.cpp.i
-.PHONY : src/AI_minmax.i
+src/AI.i: src/AI.cpp.i
+.PHONY : src/AI.i
 
 # target to preprocess a source file
-src/AI_minmax.cpp.i:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.i
-.PHONY : src/AI_minmax.cpp.i
+src/AI.cpp.i:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI.cpp.i
+.PHONY : src/AI.cpp.i
 
-src/AI_minmax.s: src/AI_minmax.cpp.s
-.PHONY : src/AI_minmax.s
+src/AI.s: src/AI.cpp.s
+.PHONY : src/AI.s
 
 # target to generate assembly for a file
-src/AI_minmax.cpp.s:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.s
-.PHONY : src/AI_minmax.cpp.s
+src/AI.cpp.s:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI.cpp.s
+.PHONY : src/AI.cpp.s
 
-src/game.o: src/game.cpp.o
-.PHONY : src/game.o
+src/Game.o: src/Game.cpp.o
+.PHONY : src/Game.o
 
 # target to build an object file
-src/game.cpp.o:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/game.cpp.o
-.PHONY : src/game.cpp.o
+src/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/Game.cpp.o
+.PHONY : src/Game.cpp.o
 
-src/game.i: src/game.cpp.i
-.PHONY : src/game.i
+src/Game.i: src/Game.cpp.i
+.PHONY : src/Game.i
 
 # target to preprocess a source file
-src/game.cpp.i:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/game.cpp.i
-.PHONY : src/game.cpp.i
+src/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
 
-src/game.s: src/game.cpp.s
-.PHONY : src/game.s
+src/Game.s: src/Game.cpp.s
+.PHONY : src/Game.s
 
 # target to generate assembly for a file
-src/game.cpp.s:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/game.cpp.s
-.PHONY : src/game.cpp.s
+src/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
+src/State.o: src/State.cpp.o
+.PHONY : src/State.o
+
+# target to build an object file
+src/State.cpp.o:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/State.cpp.o
+.PHONY : src/State.cpp.o
+
+src/State.i: src/State.cpp.i
+.PHONY : src/State.i
+
+# target to preprocess a source file
+src/State.cpp.i:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/State.cpp.i
+.PHONY : src/State.cpp.i
+
+src/State.s: src/State.cpp.s
+.PHONY : src/State.s
+
+# target to generate assembly for a file
+src/State.cpp.s:
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/State.cpp.s
+.PHONY : src/State.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,30 +210,6 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/state.o: src/state.cpp.o
-.PHONY : src/state.o
-
-# target to build an object file
-src/state.cpp.o:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/state.cpp.o
-.PHONY : src/state.cpp.o
-
-src/state.i: src/state.cpp.i
-.PHONY : src/state.i
-
-# target to preprocess a source file
-src/state.cpp.i:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/state.cpp.i
-.PHONY : src/state.cpp.i
-
-src/state.s: src/state.cpp.s
-.PHONY : src/state.s
-
-# target to generate assembly for a file
-src/state.cpp.s:
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/state.cpp.s
-.PHONY : src/state.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,18 +219,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ChecknGo"
-	@echo "... src/AI_minmax.o"
-	@echo "... src/AI_minmax.i"
-	@echo "... src/AI_minmax.s"
-	@echo "... src/game.o"
-	@echo "... src/game.i"
-	@echo "... src/game.s"
+	@echo "... src/AI.o"
+	@echo "... src/AI.i"
+	@echo "... src/AI.s"
+	@echo "... src/Game.o"
+	@echo "... src/Game.i"
+	@echo "... src/Game.s"
+	@echo "... src/State.o"
+	@echo "... src/State.i"
+	@echo "... src/State.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/state.o"
-	@echo "... src/state.i"
-	@echo "... src/state.s"
 .PHONY : help
 
 

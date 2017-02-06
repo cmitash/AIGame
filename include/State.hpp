@@ -5,11 +5,11 @@
 #include <vector>
 #include <tools.hpp>
 
-class state{
+class State{
 	public:
-		state();
-		state(state* newState);
-		void initialize();
+		State();
+		State(State* newState);
+		~State();
 		bool validMove(std::pair<int,int> from, std::pair<int,int> to);
 		bool validateSelection(std::pair<int,int> cell);
 		void updateState(std::pair<int,int> cell);
@@ -18,7 +18,7 @@ class state{
 	    void  clearSelectionOptions(std::pair<int,int> cell);
 	    std::vector<std::pair<int,int> > getAllActions();
 	    int getDepth();
-	    int getValue();
+	    int getValue(color AIcolor);
 		color getTurn();
 
 	private:

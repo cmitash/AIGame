@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pracsys/github/AIGame/src/AI_minmax.cpp" "/home/pracsys/github/AIGame/build/CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o"
-  "/home/pracsys/github/AIGame/src/game.cpp" "/home/pracsys/github/AIGame/build/CMakeFiles/ChecknGo.dir/src/game.cpp.o"
+  "/home/pracsys/github/AIGame/src/AI.cpp" "/home/pracsys/github/AIGame/build/CMakeFiles/ChecknGo.dir/src/AI.cpp.o"
+  "/home/pracsys/github/AIGame/src/Game.cpp" "/home/pracsys/github/AIGame/build/CMakeFiles/ChecknGo.dir/src/Game.cpp.o"
+  "/home/pracsys/github/AIGame/src/State.cpp" "/home/pracsys/github/AIGame/build/CMakeFiles/ChecknGo.dir/src/State.cpp.o"
   "/home/pracsys/github/AIGame/src/main.cpp" "/home/pracsys/github/AIGame/build/CMakeFiles/ChecknGo.dir/src/main.cpp.o"
-  "/home/pracsys/github/AIGame/src/state.cpp" "/home/pracsys/github/AIGame/build/CMakeFiles/ChecknGo.dir/src/state.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

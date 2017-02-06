@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ChecknGo.dir/src/main.cpp.o"
-  "CMakeFiles/ChecknGo.dir/src/state.cpp.o"
-  "CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o"
-  "CMakeFiles/ChecknGo.dir/src/game.cpp.o"
+  "CMakeFiles/ChecknGo.dir/src/State.cpp.o"
+  "CMakeFiles/ChecknGo.dir/src/AI.cpp.o"
+  "CMakeFiles/ChecknGo.dir/src/Game.cpp.o"
   "ChecknGo.pdb"
   "ChecknGo"
 )

@@ -1,22 +1,8 @@
-#include <state.hpp>
+#include <State.hpp>
 #include <iostream>
 #include <stdlib.h>
 
-state::state(){
-};
-
-state::state(state *copyState){
-depth = copyState->depth;
-turn = copyState->turn;
-playerColor[PLAYER1] = BLUE;
-playerColor[PLAYER2] = GREEN;
-FOREACH(0,GRID_SIZE-1,i)
-		FOREACH(0,GRID_SIZE-1,j)
-			board[i][j] = copyState->board[i][j];
-};
-
-void state::initialize()
-{
+State::State(){
 	FOREACH(0,GRID_SIZE-1,i)
 		FOREACH(0,GRID_SIZE-1,j)
 			board[i][j] = BLANK;
@@ -27,9 +13,22 @@ void state::initialize()
 	playerColor[PLAYER2] = GREEN;
 	turn = PLAYER1;
 	depth = 1;
-}
+};
 
-void state::clearSelectionOptions(std::pair<int,int> cell)
+State::~State(){}
+
+State::State(State *copyState){
+depth = copyState->depth;
+turn = copyState->turn;
+playerColor[PLAYER1] = BLUE;
+playerColor[PLAYER2] = GREEN;
+FOREACH(0,GRID_SIZE-1,i)
+		FOREACH(0,GRID_SIZE-1,j)
+			board[i][j] = copyState->board[i][j];
+};
+
+// Restore the current state after Selection
+void State::clearSelectionOptions(std::pair<int,int> cell)
 {
 	FOREACH(cell.first-2, cell.first+2, i)
 		FOREACH(cell.second-2, cell.second+2, j) {
@@ -39,7 +38,8 @@ void state::clearSelectionOptions(std::pair<int,int> cell)
 			}
 }
 
-void state::updateState(std::pair<int,int> cell)
+// Update State if current color moves to the destination cell
+void State::updateState(std::pair<int,int> cell)
 {
 	FOREACH(cell.first-1, cell.first+1, i)
 		FOREACH(cell.second-1, cell.second+1, j) {
@@ -52,7 +52,8 @@ void state::updateState(std::pair<int,int> cell)
 	depth++;
 }
 
-bool state::validMove(std::pair<int,int> from, std::pair<int,int> to)
+// Check if the move is valid
+bool State::validMove(std::pair<int,int> from, std::pair<int,int> to)
 {
 	if(board[to.first][to.second] != BLANK){
 		std::cout<<"You can only go to blank positions !"<<std::endl;
@@ -65,7 +66,8 @@ bool state::validMove(std::pair<int,int> from, std::pair<int,int> to)
 	else return true;
 }
 
-bool state::validateSelection(std::pair<int,int> cell)
+// Is it a valid selection ?
+bool State::validateSelection(std::pair<int,int> cell)
 {
 	bool noOption = true;
 	if(board[cell.first][cell.second] != playerColor[turn]){
@@ -84,7 +86,8 @@ bool state::validateSelection(std::pair<int,int> cell)
 	return !noOption;
 }
 
-bool state::isGameOver()
+// Check if the player with current turn has no possible move
+bool State::isGameOver()
 {
 	FOREACH(0,GRID_SIZE-1,i)
 		FOREACH(0,GRID_SIZE-1,j)
@@ -103,7 +106,8 @@ bool state::isGameOver()
 	return true;
 }
 
-std::vector<std::pair<int,int> > state::getAllActions(){
+// Get all possible actions for the current state
+std::vector<std::pair<int,int> > State::getAllActions(){
 	std::vector<std::pair<int,int> > actions;
 	FOREACH(0,GRID_SIZE-1,i)
 		FOREACH(0,GRID_SIZE-1,j)
@@ -122,15 +126,18 @@ std::vector<std::pair<int,int> > state::getAllActions(){
 	return actions;
 }
 
-color state::getColoratPosition(std::pair<int,int> pos){
+// Get the color at specified position
+color State::getColoratPosition(std::pair<int,int> pos){
 	return board[pos.first][pos.second];
 }
 
-int state::getDepth(){
+// Get the depth of state
+int State::getDepth(){
 	return depth;
 }
 
-int state::getValue()
+// Get the goodness of the state corresponding to a given color
+int State::getValue(color AIcol)
 {
 	int greenCount = 0;
 	int blueCount = 0;
@@ -140,10 +147,15 @@ int state::getValue()
 			if(board[i][j] == GREEN)greenCount++;
 			if(board[i][j] == BLUE)blueCount++;
 		}
-	return (greenCount - blueCount);
+
+	if(AIcol == GREEN)
+		return (greenCount - blueCount);
+	else
+		return (blueCount - greenCount);
 }
 
-color state::getTurn()
+// Get the color of the player with current turn
+color State::getTurn()
 {
 	return playerColor[turn];
 }

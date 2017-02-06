@@ -1,10 +1,20 @@
 #define FOREACH(a,b,i) for(int i=a;i<=b;i++)
+
+// Size of the playing board
 #define GRID_SIZE 7
+
+// Display size in pixels for each cell
 #define CELL_SIZE 80
+
+// Depth for MINMAX Algoruthm
 #define THRES_DEPTH 2
 
+// Number and depth of simulations for Monte Carlo Tree Search
+#define NUM_SIMULATIONS 100
+#define THRES_MOVES 50
+
 enum GameMode {
-	MULTIPLAYER, SINGLEPLAYER
+	MULTIPLAYER, SINGLEPLAYER, WATCH
 };
 
 enum GameAutomatonState{
@@ -20,14 +30,9 @@ enum player{
 };
 
 enum Status{
-	SUCCESS,
-	BAD_SELECTION,
-	INVALID_MOVE,
-	END
+	SUCCESS, BAD_SELECTION, INVALID_MOVE, END
 };
 
 enum AIMode{
-	NONE,
-	RANDOM,
-	MINMAX
+	NONE, RANDOM, MINMAX, MCTS
 };

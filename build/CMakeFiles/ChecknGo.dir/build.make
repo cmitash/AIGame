@@ -72,89 +72,89 @@ CMakeFiles/ChecknGo.dir/src/main.cpp.o.provides: CMakeFiles/ChecknGo.dir/src/mai
 
 CMakeFiles/ChecknGo.dir/src/main.cpp.o.provides.build: CMakeFiles/ChecknGo.dir/src/main.cpp.o
 
-CMakeFiles/ChecknGo.dir/src/state.cpp.o: CMakeFiles/ChecknGo.dir/flags.make
-CMakeFiles/ChecknGo.dir/src/state.cpp.o: ../src/state.cpp
+CMakeFiles/ChecknGo.dir/src/State.cpp.o: CMakeFiles/ChecknGo.dir/flags.make
+CMakeFiles/ChecknGo.dir/src/State.cpp.o: ../src/State.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ChecknGo.dir/src/state.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChecknGo.dir/src/state.cpp.o -c /home/pracsys/github/AIGame/src/state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ChecknGo.dir/src/State.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChecknGo.dir/src/State.cpp.o -c /home/pracsys/github/AIGame/src/State.cpp
 
-CMakeFiles/ChecknGo.dir/src/state.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChecknGo.dir/src/state.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pracsys/github/AIGame/src/state.cpp > CMakeFiles/ChecknGo.dir/src/state.cpp.i
+CMakeFiles/ChecknGo.dir/src/State.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChecknGo.dir/src/State.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pracsys/github/AIGame/src/State.cpp > CMakeFiles/ChecknGo.dir/src/State.cpp.i
 
-CMakeFiles/ChecknGo.dir/src/state.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChecknGo.dir/src/state.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pracsys/github/AIGame/src/state.cpp -o CMakeFiles/ChecknGo.dir/src/state.cpp.s
+CMakeFiles/ChecknGo.dir/src/State.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChecknGo.dir/src/State.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pracsys/github/AIGame/src/State.cpp -o CMakeFiles/ChecknGo.dir/src/State.cpp.s
 
-CMakeFiles/ChecknGo.dir/src/state.cpp.o.requires:
-.PHONY : CMakeFiles/ChecknGo.dir/src/state.cpp.o.requires
+CMakeFiles/ChecknGo.dir/src/State.cpp.o.requires:
+.PHONY : CMakeFiles/ChecknGo.dir/src/State.cpp.o.requires
 
-CMakeFiles/ChecknGo.dir/src/state.cpp.o.provides: CMakeFiles/ChecknGo.dir/src/state.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/state.cpp.o.provides.build
-.PHONY : CMakeFiles/ChecknGo.dir/src/state.cpp.o.provides
+CMakeFiles/ChecknGo.dir/src/State.cpp.o.provides: CMakeFiles/ChecknGo.dir/src/State.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/State.cpp.o.provides.build
+.PHONY : CMakeFiles/ChecknGo.dir/src/State.cpp.o.provides
 
-CMakeFiles/ChecknGo.dir/src/state.cpp.o.provides.build: CMakeFiles/ChecknGo.dir/src/state.cpp.o
+CMakeFiles/ChecknGo.dir/src/State.cpp.o.provides.build: CMakeFiles/ChecknGo.dir/src/State.cpp.o
 
-CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o: CMakeFiles/ChecknGo.dir/flags.make
-CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o: ../src/AI_minmax.cpp
+CMakeFiles/ChecknGo.dir/src/AI.cpp.o: CMakeFiles/ChecknGo.dir/flags.make
+CMakeFiles/ChecknGo.dir/src/AI.cpp.o: ../src/AI.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o -c /home/pracsys/github/AIGame/src/AI_minmax.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ChecknGo.dir/src/AI.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChecknGo.dir/src/AI.cpp.o -c /home/pracsys/github/AIGame/src/AI.cpp
 
-CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pracsys/github/AIGame/src/AI_minmax.cpp > CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.i
+CMakeFiles/ChecknGo.dir/src/AI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChecknGo.dir/src/AI.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pracsys/github/AIGame/src/AI.cpp > CMakeFiles/ChecknGo.dir/src/AI.cpp.i
 
-CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pracsys/github/AIGame/src/AI_minmax.cpp -o CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.s
+CMakeFiles/ChecknGo.dir/src/AI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChecknGo.dir/src/AI.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pracsys/github/AIGame/src/AI.cpp -o CMakeFiles/ChecknGo.dir/src/AI.cpp.s
 
-CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.requires:
-.PHONY : CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.requires
+CMakeFiles/ChecknGo.dir/src/AI.cpp.o.requires:
+.PHONY : CMakeFiles/ChecknGo.dir/src/AI.cpp.o.requires
 
-CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.provides: CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.provides.build
-.PHONY : CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.provides
+CMakeFiles/ChecknGo.dir/src/AI.cpp.o.provides: CMakeFiles/ChecknGo.dir/src/AI.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/AI.cpp.o.provides.build
+.PHONY : CMakeFiles/ChecknGo.dir/src/AI.cpp.o.provides
 
-CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.provides.build: CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o
+CMakeFiles/ChecknGo.dir/src/AI.cpp.o.provides.build: CMakeFiles/ChecknGo.dir/src/AI.cpp.o
 
-CMakeFiles/ChecknGo.dir/src/game.cpp.o: CMakeFiles/ChecknGo.dir/flags.make
-CMakeFiles/ChecknGo.dir/src/game.cpp.o: ../src/game.cpp
+CMakeFiles/ChecknGo.dir/src/Game.cpp.o: CMakeFiles/ChecknGo.dir/flags.make
+CMakeFiles/ChecknGo.dir/src/Game.cpp.o: ../src/Game.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/pracsys/github/AIGame/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ChecknGo.dir/src/game.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChecknGo.dir/src/game.cpp.o -c /home/pracsys/github/AIGame/src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ChecknGo.dir/src/Game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ChecknGo.dir/src/Game.cpp.o -c /home/pracsys/github/AIGame/src/Game.cpp
 
-CMakeFiles/ChecknGo.dir/src/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChecknGo.dir/src/game.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pracsys/github/AIGame/src/game.cpp > CMakeFiles/ChecknGo.dir/src/game.cpp.i
+CMakeFiles/ChecknGo.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChecknGo.dir/src/Game.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/pracsys/github/AIGame/src/Game.cpp > CMakeFiles/ChecknGo.dir/src/Game.cpp.i
 
-CMakeFiles/ChecknGo.dir/src/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChecknGo.dir/src/game.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pracsys/github/AIGame/src/game.cpp -o CMakeFiles/ChecknGo.dir/src/game.cpp.s
+CMakeFiles/ChecknGo.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChecknGo.dir/src/Game.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/pracsys/github/AIGame/src/Game.cpp -o CMakeFiles/ChecknGo.dir/src/Game.cpp.s
 
-CMakeFiles/ChecknGo.dir/src/game.cpp.o.requires:
-.PHONY : CMakeFiles/ChecknGo.dir/src/game.cpp.o.requires
+CMakeFiles/ChecknGo.dir/src/Game.cpp.o.requires:
+.PHONY : CMakeFiles/ChecknGo.dir/src/Game.cpp.o.requires
 
-CMakeFiles/ChecknGo.dir/src/game.cpp.o.provides: CMakeFiles/ChecknGo.dir/src/game.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/game.cpp.o.provides.build
-.PHONY : CMakeFiles/ChecknGo.dir/src/game.cpp.o.provides
+CMakeFiles/ChecknGo.dir/src/Game.cpp.o.provides: CMakeFiles/ChecknGo.dir/src/Game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ChecknGo.dir/build.make CMakeFiles/ChecknGo.dir/src/Game.cpp.o.provides.build
+.PHONY : CMakeFiles/ChecknGo.dir/src/Game.cpp.o.provides
 
-CMakeFiles/ChecknGo.dir/src/game.cpp.o.provides.build: CMakeFiles/ChecknGo.dir/src/game.cpp.o
+CMakeFiles/ChecknGo.dir/src/Game.cpp.o.provides.build: CMakeFiles/ChecknGo.dir/src/Game.cpp.o
 
 # Object files for target ChecknGo
 ChecknGo_OBJECTS = \
 "CMakeFiles/ChecknGo.dir/src/main.cpp.o" \
-"CMakeFiles/ChecknGo.dir/src/state.cpp.o" \
-"CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o" \
-"CMakeFiles/ChecknGo.dir/src/game.cpp.o"
+"CMakeFiles/ChecknGo.dir/src/State.cpp.o" \
+"CMakeFiles/ChecknGo.dir/src/AI.cpp.o" \
+"CMakeFiles/ChecknGo.dir/src/Game.cpp.o"
 
 # External object files for target ChecknGo
 ChecknGo_EXTERNAL_OBJECTS =
 
 ChecknGo: CMakeFiles/ChecknGo.dir/src/main.cpp.o
-ChecknGo: CMakeFiles/ChecknGo.dir/src/state.cpp.o
-ChecknGo: CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o
-ChecknGo: CMakeFiles/ChecknGo.dir/src/game.cpp.o
+ChecknGo: CMakeFiles/ChecknGo.dir/src/State.cpp.o
+ChecknGo: CMakeFiles/ChecknGo.dir/src/AI.cpp.o
+ChecknGo: CMakeFiles/ChecknGo.dir/src/Game.cpp.o
 ChecknGo: CMakeFiles/ChecknGo.dir/build.make
 ChecknGo: /usr/lib/x86_64-linux-gnu/libGLU.so
 ChecknGo: /usr/lib/x86_64-linux-gnu/libGL.so
@@ -170,9 +170,9 @@ CMakeFiles/ChecknGo.dir/build: ChecknGo
 .PHONY : CMakeFiles/ChecknGo.dir/build
 
 CMakeFiles/ChecknGo.dir/requires: CMakeFiles/ChecknGo.dir/src/main.cpp.o.requires
-CMakeFiles/ChecknGo.dir/requires: CMakeFiles/ChecknGo.dir/src/state.cpp.o.requires
-CMakeFiles/ChecknGo.dir/requires: CMakeFiles/ChecknGo.dir/src/AI_minmax.cpp.o.requires
-CMakeFiles/ChecknGo.dir/requires: CMakeFiles/ChecknGo.dir/src/game.cpp.o.requires
+CMakeFiles/ChecknGo.dir/requires: CMakeFiles/ChecknGo.dir/src/State.cpp.o.requires
+CMakeFiles/ChecknGo.dir/requires: CMakeFiles/ChecknGo.dir/src/AI.cpp.o.requires
+CMakeFiles/ChecknGo.dir/requires: CMakeFiles/ChecknGo.dir/src/Game.cpp.o.requires
 .PHONY : CMakeFiles/ChecknGo.dir/requires
 
 CMakeFiles/ChecknGo.dir/clean:

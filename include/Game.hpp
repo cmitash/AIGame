@@ -1,15 +1,17 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
-#include <state.hpp>
-#include <AI_minmax.hpp>
+#include <State.hpp>
+#include <AI.hpp>
 #include <utility>
 
-class game{
+class Game{
 public:
-	game(GameMode mode, AIMode level);
+	Game(GameMode mode, AIMode level);
+	~Game();
 	Status moveMP(std::pair<int,int> cell);
 	Status moveAI(std::pair<int,int> cell);
+	Status move_AI_AI(std::pair<int,int> cell);
 	color getColoratPosition(std::pair<int,int> pos);
 	GameAutomatonState getAutomatonState();
 	Status move(std::pair<int,int> cell);
@@ -17,8 +19,9 @@ public:
 	color getTurn();
 
 private:
-	state* currState;
-	AI_minmax *AI;
+	State* currState;
+	AI *AI_GREEN;
+	AI *AI_BLUE;
 	std::pair<int,int> currSelection;
 	GameMode currMode;
 	GameAutomatonState automatonState;

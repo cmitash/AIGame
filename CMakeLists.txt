@@ -8,7 +8,7 @@ include_directories(
   ${GLUT_INCLUDE_DIRS}
 )
 
-add_executable( ChecknGo src/main.cpp src/state.cpp src/AI_minmax.cpp src/game.cpp)
+add_executable( ChecknGo src/main.cpp src/State.cpp src/AI.cpp src/Game.cpp)
 target_link_libraries(ChecknGo
 	${OPENGL_LIBRARY}
 	${GLUT_LIBRARY}

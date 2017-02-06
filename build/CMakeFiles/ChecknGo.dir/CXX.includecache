@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-../include/AI_minmax.hpp
-state.hpp
+../include/AI.hpp
+State.hpp
 -
 utility
 -
 
-../include/game.hpp
-state.hpp
+../include/Game.hpp
+State.hpp
 -
-AI_minmax.hpp
+AI.hpp
 -
 utility
 -
 
-../include/state.hpp
+../include/State.hpp
 utility
 -
 vector
@@ -30,20 +30,28 @@ tools.hpp
 
 ../include/tools.hpp
 
-/home/pracsys/github/AIGame/src/AI_minmax.cpp
+/home/pracsys/github/AIGame/src/AI.cpp
 iostream
 -
 climits
 -
 stdlib.h
 -
-AI_minmax.hpp
+AI.hpp
 -
 
-/home/pracsys/github/AIGame/src/game.cpp
-game.hpp
+/home/pracsys/github/AIGame/src/Game.cpp
+Game.hpp
 -
 iostream
+-
+
+/home/pracsys/github/AIGame/src/State.cpp
+State.hpp
+-
+iostream
+-
+stdlib.h
 -
 
 /home/pracsys/github/AIGame/src/main.cpp
@@ -55,16 +63,8 @@ stdio.h
 -
 string.h
 -
-game.hpp
+Game.hpp
 -
 GL/glut.h
--
-
-/home/pracsys/github/AIGame/src/state.cpp
-state.hpp
--
-iostream
--
-stdlib.h
 -
 
