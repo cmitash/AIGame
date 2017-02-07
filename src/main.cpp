@@ -169,17 +169,10 @@ void displaySimulation()
   	glEnd();
 
   	glColor3f(1, 0, 0); 
-  	RenderString(580.0f, 500.0f, GLUT_BITMAP_TIMES_ROMAN_24, "ChecknGo Rules:-");
-  	RenderString(580.0f, 450.0f, GLUT_BITMAP_9_BY_15, "1. Select your piece");
-  	RenderString(580.0f, 400.0f, GLUT_BITMAP_9_BY_15, "2. Possible moves are");
-  	RenderString(580.0f, 380.0f, GLUT_BITMAP_9_BY_15, "   shown in Red");
+  	RenderString(580.0f, 500.0f, GLUT_BITMAP_TIMES_ROMAN_24, "Press c to move");
+  	RenderString(580.0f, 480.0f, GLUT_BITMAP_TIMES_ROMAN_24, "to next step");
 
-  	RenderString(580.0f, 330.0f, GLUT_BITMAP_9_BY_15, "3. convert opponents by");
-  	RenderString(580.0f, 310.0f, GLUT_BITMAP_9_BY_15, "   jumping near them");
-
-  	RenderString(580.0f, 260.0f, GLUT_BITMAP_9_BY_15, "4. Maximize pieces of");
-  	RenderString(580.0f, 240.0f, GLUT_BITMAP_9_BY_15, "	  your color");
-  	RenderString(580.0f, 190.0f, GLUT_BITMAP_9_BY_15, "5. Esc to Exit ! ");
+  	RenderString(580.0f, 190.0f, GLUT_BITMAP_9_BY_15, "Esc to Exit ! ");
 
 
   	RenderString(580.0f, 150.0f, GLUT_BITMAP_9_BY_15, "NEXT TURN :");
@@ -233,21 +226,22 @@ void onClick(int side, int state, int x, int y)
 
 // Keyboard control to view simulation
 void runSimulation(unsigned char key, int x, int y){
-if(key == 'c'){
+	if(key == 'c'){
 		Status s = currGame->move(std::make_pair(0,0));
 		glutPostRedisplay();
 
-		if(s != SUCCESS)
-		{
+		if(s != SUCCESS){
 			if(s == END){
 			std::cout<<"GAME OVER !"<<std::endl;
 			glutDisplayFunc(EndScreen);
 			glutKeyboardFunc(handleKeypress);
-			
 			}
 			std::cout<<"BAD MOVE, status : "<<s<<std::endl;
-		}
-}
+			}
+	}
+	else if(key == 27){
+			exit(-1);
+	}
 }
 
 // Keyboard control for the start screen
